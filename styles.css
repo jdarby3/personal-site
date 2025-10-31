@@ -1,7 +1,30 @@
+
+*{
+    border: 2px solid red;
+}
+
 .flex{ 
     display: flex;
 }
 
+.main_title{
+    align-items: baseline;
+    margin-right: auto;
+}
+
+.resume_links{
+    gap: 20px;
+}
+
+body{
+    flex-direction: column;
+}
+
 header {
-    background-color: blue;
+    color: white;
+    background-color: rgb(86, 86, 207);
+}
+
+main{
+    flex-grow: 1;
 }
