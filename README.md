@@ -1,2 +1,1 @@
-# personal-site
-A website that will act as my portfolio / resume
+# My Personal Resume / Portfolio Site
