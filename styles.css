@@ -1,3 +1,7 @@
+.flex{ 
+    display: flex;
+}
+
 header {
     background-color: blue;
 }
