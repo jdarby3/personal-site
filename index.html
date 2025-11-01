@@ -5,9 +5,9 @@
         <link rel="stylesheet" href="styles.css">
         <title>James Darby</title>
     </head>
-    <body class="flex">
-        <header class="flex">
-            <div class="nav_bar">
+    <body class="column">
+        <header>
+            <div class="nav_bar flex">
                 <div class="main_title flex">
                     <h1>James Darby</h1>
                     <h3>Engineer</h3>
@@ -18,14 +18,39 @@
                         <h5 class="resume_link">youtube</h5>
                 </div>
             </div>
-            <div class="page_head">
-
-                <!-- TODO  !!!! -->
-            
+            <div class="page_head flex">
+                <div class="page_head_content flex column">
+                    <h1>My Personal Website</h1>
+                    <p>This is a website that will act as a quick overview of my resume.</p>
+                    <h6>Future sign up button</h6>
+                </div>
+                <img src="../img/james.jpeg" alt="Photo of James">
             </div>
         </header>
-        <main>
-            <p>some main content</p>
+        <main class="flex column">
+            <h1>Some random information</h1>
+            <div class="flex" id="main_images">
+                <div>
+                    <img src="" alt="Image 1">
+                    <h6>Image 1</h6>
+                </div>
+                <div>
+                    <img src="" alt="Image 2">
+                    <h6>Image 2</h6>
+                </div>
+                <div>
+                    <img src="" alt="Image 3">
+                    <h6>Image 3</h6>
+                </div>
+                <div>
+                    <img src="" alt="Image 4">
+                    <h6>Image 4</h6>
+                </div>
+            </div>
+            <div class="flex column" id="inspiring_quote">
+                <p>Insert inpriatoinal quote here</p>
+                <h6>- James Darby</h6>
+            </div>
         </main>
         <footer>
             <p>Copyright © 2024 James Darby</p>
