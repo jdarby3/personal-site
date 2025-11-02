@@ -1,13 +1,12 @@
 
 *{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-family: 'Roboto', sans-serif;
+    /* margin: 0; */
+    /* text-align: left; */
 }
 
-html, body{
-    height: 100%;
-    margin: 0;
-}
+html, body{ height: 100%; }
 
 header {
     color: white;
@@ -15,13 +14,15 @@ header {
     padding: 10px 100px 100px 100px;
 }
 
+
+
 main{
     flex: 1;
 }
 
 .flex{ display: flex; }
 
-.column{ flex-direction: column;}
+.column{ flex-direction: column; }
 
 /* '>' makes only direct children of column class take these attributes */
 .column > *{
@@ -35,14 +36,21 @@ main{
     background-color: #e5e7eb;
 }
 
-#main_title{
-    align-items: baseline;
-    margin-right: auto;
-    flex-wrap: wrap;
-}   
+#main_images > *{
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
 
-#page-head-content{
-    margin-right: auto;
+#main_title{
+    align-items: stretch;
+}
+
+#page_head > *{
+    justify-content: space-between;
+}
+
+#page_head_sub *{
+    text-align: left;
 }
 
 #resume_links{
