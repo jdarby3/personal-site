@@ -4,46 +4,49 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.column{
-    flex-direction: column;
-}
-
-.column *{
-    justify-content: center;
-    text-align: center;
+html, body{
+    height: 100%;
+    margin: 0;
 }
 
 header {
     color: white;
     background-color: #1F2937;
+    padding: 10px 100px 100px 100px;
 }
 
 main{
-    flex-grow: 1;
+    flex: 1;
 }
 
-.flex{ 
-    display: flex;
-}
+.flex{ display: flex; }
 
-.main_title{
-    align-items: baseline;
-    margin-right: auto;
-    flex-wrap: wrap;
-}
+.column{ flex-direction: column;}
 
-.resume_links{
-    gap: 20px;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.page_head{
+/* '>' makes only direct children of column class take these attributes */
+.column > *{
     justify-content: center;
+    text-align: center;
 }
 
 #inspiring_quote{
     align-items: stretch;
     justify-content: center;
     background-color: #e5e7eb;
+}
+
+#main_title{
+    align-items: baseline;
+    margin-right: auto;
+    flex-wrap: wrap;
+}   
+
+#page-head-content{
+    margin-right: auto;
+}
+
+#resume_links{
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
 }
